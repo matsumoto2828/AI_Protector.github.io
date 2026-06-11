@@ -16,6 +16,18 @@ HTML_TEMPLATE = '''
      crossorigin="anonymous"></script>
     <meta name="google-site-verification" content="N2BcjtShs4wEitWTlkXRau1uwXrpXuWCKlWsebaySAc" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>AI Fractal Protector | イラスト・写真のAI無断学習防止ツール（ブラウザ無料）</title>
+    
+    <meta name="description" content="AIの無断学習からあなたのイラストや写真を守る無料ブラウザツール。独自の「彩度ブースト・フラクタル線画」ノイズを合成し、見た目の美しさを保ちながらAIの画像認識を妨害します。スマホ対応・完全ローカル処理で安全です。">
+
+    <meta property="og:title" content="AI Fractal Protector | AI無断学習防止ツール">
+    <meta property="og:description" content="見た目はそのまま、AIにはバグった画像に見せる独自のノイズ処理ツール。">
+    <meta property="og:type" content="website">
+
     <title>AI Fractal Protector - AI学習妨害線画ツール</title>
     <style>
         :root {
@@ -254,7 +266,7 @@ HTML_TEMPLATE = '''
 
                 <button type="button" class="btn" id="process-btn" disabled>
                     <span class="spinner" id="spinner"></span>
-                    <span id="btn-text">フラクタルプロテクト実行</span>
+                    <span id="btn-text">画像保護実行</span>
                 </button>
             </form>
 
