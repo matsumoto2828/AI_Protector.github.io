@@ -376,8 +376,6 @@ HTML_TEMPLATE = '''
 </body>
 </html>
 '''
-
-# 3層フラクタル処理アルゴリズム (Python / OpenCV)
 import traceback
 
 # 3層フラクタル処理アルゴリズム (Python / OpenCV) - 同系色・高彩度オーバーレイ版
@@ -472,6 +470,7 @@ def apply_three_layer_fractal(image_bytes, ext):
         error_msg = f"{str(e)}\n{traceback.format_exc()}"
         print("画像処理エラー:", error_msg)
         return None, str(e)
+
 
 @app.route('/')
 def index():
