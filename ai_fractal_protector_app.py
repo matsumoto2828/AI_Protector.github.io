@@ -12,6 +12,8 @@ HTML_TEMPLATE = '''
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2861247104118830"
+     crossorigin="anonymous"></script>
     <meta name="google-site-verification" content="N2BcjtShs4wEitWTlkXRau1uwXrpXuWCKlWsebaySAc" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Fractal Protector - AI学習妨害線画ツール</title>
